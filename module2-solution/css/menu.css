@@ -1,0 +1,104 @@
+*
+{
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	font-family: Arial, Helvetica, Sans-Serif;
+	font-size: 14px;
+}
+
+h1
+{
+	font-size: 32px;
+	text-align: center;
+	margin: 15px 0 15px 0;
+}
+
+h2
+{
+	font-size: 18px;
+}
+.container
+{
+	padding : 10px;
+}
+
+.container div
+{
+	float: left;
+}
+section
+{
+	margin: 10px;
+	padding:25px 5px 5px 5px;
+	border: solid 1px #000000;
+	background-color: #dedede;
+	position: relative;
+}
+
+section > h2
+{
+	font-size: 18px;
+	border: solid 1px #000000;
+	border-top: none;
+	border-right: none;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	width: 30%;
+	height: 22px;
+	text-align: center;
+}
+
+.yellowHeader
+{
+	background-color: #FFFFD5;
+	color: #191F43;
+}
+
+.blueHeader
+{
+	background-color: #191F43;
+	color: #FFFFFF
+}
+
+.purpleHeader
+{
+	background-color: #817BA1;
+	color: #FFFFFF
+}
+
+@media (min-width: 992px)
+{
+	.col-large-3
+	{
+		width: 33.33%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px)
+{
+	.col-medium-6
+	{
+		width: 50%;
+		
+	}
+	.col-medium-12
+	{
+		width: 100%;
+	}
+}
+
+@media (max-width: 767px)
+{
+	.col-small-12
+	{
+		width: 100%;
+	}
+}
